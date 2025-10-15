@@ -1,0 +1,31 @@
+{
+  "name": "@zulkharnain/react-smart-form",
+  "version": "1.1.4",
+  "description": "A TypeScript React library for smart forms",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && rollup -c",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "form",
+    "validator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "rimraf": "^5.0.10",
+    "rollup": "^4.52.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.9.3"
+  }
+}
