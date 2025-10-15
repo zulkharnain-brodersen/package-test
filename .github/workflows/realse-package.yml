@@ -12,8 +12,9 @@ jobs:
       - uses: actions/checkout@v3
         with:
           node-version: 12
-        run: npm ci
-        run: npm latest
+
+      - run: npm ci
+      - run: npm latest
 
   publish-gpr: 
     needs: build
@@ -27,6 +28,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+
       - run: npm ci
       - run: npm publish
       - env: 
