@@ -1,5 +1,5 @@
 {
-  "name": "@zulkharnain/react-smart-form",
+  "name": "@zulkharnain-brodersen/react-smart-form",
   "version": "1.1.4",
   "description": "A TypeScript React library for smart forms",
   "main": "dist/cjs/index.js",
@@ -27,5 +27,8 @@
     "rollup": "^4.52.4",
     "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

@@ -1,13 +1,13 @@
-# @zulkharnain/react-smart-form
+# @zulkharnain-brodersen/react-smart-form
 
 A lightweight and flexible React form component that dynamically generates forms based on an array of objects. Ideal for rapid form creation with minimal configuration.
 
 
 ## Installation
 ```sh
-npm install @zulkharnain/react-smart-form
+npm install @zulkharnain-brodersen/react-smart-form
 # or
-yarn add @zulkharnain/react-smart-form
+yarn add @zulkharnain-brodersen/react-smart-form
 
 ```
 
@@ -16,7 +16,7 @@ yarn add @zulkharnain/react-smart-form
 ```sh
 
 import React from "react";
-import SmartForm from "@zulkharnain/react-smart-form";
+import SmartForm from "@zulkharnain-brodersen/react-smart-form";
 
 const formData = [
   { label: "Name", name: "name", type: "text", required: true },
